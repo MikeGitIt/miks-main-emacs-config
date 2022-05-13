@@ -1,0 +1,4 @@
+string[] animals = { "Cat", "Alligator", "Fox", "Donkey", "Cat" };
+string[] birds = { "Sparrow", "Peacock", "Dove", "Crow" };
+ 
+var all = animals.Union(birds).ToArray();
