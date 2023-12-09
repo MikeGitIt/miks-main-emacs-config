@@ -1,0 +1,61 @@
+# Emacs temporary files
+*~
+.\#*
+\#*\#
+
+# Auto-save files
+*.save
+*autosave*
+
+# Byte-compiled / optimized / DLL files
+*.elc
+*.o
+*.so
+*.dll
+
+# Emacs tags file
+TAGS
+
+# Emacs backup files
+*~
+.\#*
+\#*\#
+
+# Emacs auto-save list
+auto-save-list/
+
+# Custom file (if you use a different file, replace 'custom.el' with its name)
+custom.el
+
+# Bookmarks
+bookmarks
+
+# eshell files
+eshell/history
+eshell/lastdir
+
+# Tramp files
+/tramp
+
+# Projectile files
+.projectile
+projectile-bookmarks.eld
+
+# Emacs daemon files
+/server/
+emacs.d/server/
+
+# Emacs profiling
+/profile.*
+
+# Other untracked files
+elpa/
+*archive-contents*
+url/
+places
+recentf
+
+# Exclude specific configuration files if they contain sensitive information
+# Replace `config.el` with the actual filename
+# config.el
+
